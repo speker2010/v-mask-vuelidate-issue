@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "generate": "nuxt generate",
+    "generate": "cross-env MODE=gh nuxt generate",
     "start": "nuxt start"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/speker2010/v-mask-vuelidate-issue#readme",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "nuxt": "^2.15.8",
     "v-mask": "^2.3.0",
     "vuelidate": "^0.7.7"
